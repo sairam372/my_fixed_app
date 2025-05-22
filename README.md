@@ -1,4 +1,5 @@
 # my_fixed_app
+ HEAD
 
 A new Flutter project.
 
@@ -14,3 +15,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+my first flutter app with Git-setup
+ 0f1e257312d5d5155f6198fcf05fc46fb1b7444c
