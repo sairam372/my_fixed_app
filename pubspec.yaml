@@ -1,0 +1,42 @@
+name: my_fixed_app
+description: A new Flutter project.
+
+environment:
+  sdk: "^3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^1.10.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: any
+  mockito: ^5.4.0
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.9  # ✅ Moved here correctly
+
+flutter_launcher_icons:  # ✅ Launcher icon config
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+
+flutter_native_splash:  # ✅ Splash screen config — top level
+  color: "#ffffff"
+  image: assets/splash/logo.png
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/app_icon.png
+    - assets/splash/logo.png
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
